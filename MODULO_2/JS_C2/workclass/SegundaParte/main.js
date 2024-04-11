@@ -38,3 +38,5 @@ if (age >= 18) {
 
 
 
+var password = "kambcode"
+
