@@ -48,3 +48,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 ## MODULO 2
 - 08/04/2024 Introduccion Variables: https://youtu.be/IbFKxFsreyE
 - 10/04/2024 Condicionales (IF - ELSE) : https://youtu.be/aTWRTjWPmzg
+- 12/04/2024 Const - Operadores Logicos : https://youtu.be/kr82H-loaqg
+
