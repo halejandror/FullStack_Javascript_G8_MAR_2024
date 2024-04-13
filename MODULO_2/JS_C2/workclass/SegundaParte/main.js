@@ -10,10 +10,10 @@
 
 
 // el usuario tiene más de 18 años
-// var age = prompt("Digite su edad");
-// if (age == 18) {
-//     document.write("<h1>Usted puede entrar a la pagina</h1>")
-// }
+var age = prompt("Digite su edad");
+if (age == 18) {
+    document.write("<h1>Usted puede entrar a la pagina</h1>")
+}
 
 // var añoNacimiento = prompt("Coloque su año de nacimiento")
 // if (añoNacimiento == 2000){
@@ -29,14 +29,13 @@ if (age >= 18) {
 }
 
 
-// var pais = prompt("Digite su pais")
-// if (pais === "colombia"){
-//     document.write("Su pais es Colombia Felicitaciones!!")
-// } else{
-//     document.write("Su pais no es Colombia, usted es de otra nacionalidad")
-// }
+var pais = prompt("Digite su pais")
+if (pais === "colombia"){
+    document.write("Su pais es Colombia Felicitaciones!!")
+} else{
+    document.write("Su pais no es Colombia, usted es de otra nacionalidad")
+}
 
 
 
 var password = "kambcode"
-
