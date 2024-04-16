@@ -1,6 +1,6 @@
 // Explicacion == & ===
 
-// == -> Compara los valores sin tener en cuenta los tipos
+// == -> Compara los valores sin tener en cuenta los tipos 
 // === -> Los valores son iguales pero los tipos son diferentes
 
 
@@ -37,10 +37,10 @@
 // console.log("el peso es: ", peso);
 // console.log("Su nombre es", nombre);
 
-// var imc = peso / (alturaCm * alturaCm);
+// const imc = peso / (alturaCm * alturaCm);
 
 // document.write("<p>su altura es: ", altura);
-// document.write("<p>Hola ", nombre, " su indice de IMC es: ", imc.toFixed(4));
+// document.write("<p>Hola ", nombre, " su indice de IMC es: ", imc.toFixed(2));
 
 
 // Var vs Const
