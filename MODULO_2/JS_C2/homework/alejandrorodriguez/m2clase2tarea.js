@@ -45,3 +45,6 @@
 // else if(edad >18)[document.write("tu entrada vale 10 $")];
 
 // else [document.write("pagas 5 $")];
+
+
+
