@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. Incluye cosas como palabras clave, una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc.-->
+        <meta charset="utf-8"> <!--codificaciòn que utiliza, puede leer emojis o acentos-->
+        <meta name="viewport" content="width=device-width"> <!--El ancho del contenido sea el ancho de la pantalla, se adapte el contenido -->
+        
+        <title>Portfolio Laura</title> <!--Titulo para la pestaña del navegador-->
+
+        <meta name="description" content="Portfolio de laura estudiante de desarrollo de software"> <!--describe el contenido de nuestra 
+            pagina, en ocasiones aparece directamente cuando lo buscamos -->
+        
+
+            <!--OPEN GRAPH CONJUNTO DE ETIQUETAS PARA QUE CUANDO SE COMPARTE UN CONTENIDO SE VEA BIEN-->
+            <meta property="og:title" contenent="Portfolio de Laura">
+            <meta property="og:images" contenent="/images/yo.jpg">
+             
+
+        <meta name="robots" content="index, follow"> <!--Indicar si tiene que indexar la pagina y 
+            si tiene que seguir los enlaces-->
+
+
+        <meta name="theme-color" content="#8f7ada"> <!--Poner color al encabezado de la pagina-->
+
+        <link rel="icon" type="image/jpg" href="image/yo.jpg"> <!--icono en la ventava del navegador-->
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Rellenar</legend>
+                <label>
+                    <input 
+                    type="radio" 
+                    name="idioma" 
+                    value="idiomaingles">Inglés</label>
+                <label>
+                    <input 
+                    type="radio" 
+                    name="idioma" value="idiomaaleman">Alemán</label>
+                <label>
+                    <input 
+                    type="radio" 
+                    name="idioma" 
+                    value="idiomafrances">Francés</label>
+
+                
+            <br>
+            <br>
+            
+          
+                <select>
+                    <option value="usb">USB</option>
+                    <option value="paralelo">Paralelo</option>
+                    <option value="ps2">PS2</option>
+                </select name="conector">
+                <br>
+                <br>
+                <label style="display: block;">Nombre:
+                    <input 
+                    type="text"
+                    name="name"
+                    placeholder="Laura Gabriela Torres" required>
+
+                    <label style="display: block;">Apellido:
+                        <input 
+                        type="text"
+                        name="apellido"
+                        placeholder="" required>
+                       
+                    </label>
+                   
+                </label>
+            
+            </fieldset>
+
+            <fieldset>
+                <select name="sexo" multiple>
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+                <br>
+                
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="sexo" 
+                    value="sexomujer"> Mujer</label>
+                    <br>
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="sexo" 
+                    value="sexohombre"> Hombre</label>
+
+                <label style="display: block;">Fecha:
+                        <input 
+                        type="date"
+                        name="phone"
+                        placeholder="" required>
+                        
+                </label>
+
+            </fieldset>
+        </form>
+    </body>

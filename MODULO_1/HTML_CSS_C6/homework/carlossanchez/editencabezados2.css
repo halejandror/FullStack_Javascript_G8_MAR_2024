@@ -1,0 +1,57 @@
+.cuadro1{
+    background-color: rgb(32, 136, 177);
+    padding: 3%;
+    font-family: 'Times New Roman';
+    margin: 4% 2% 0% 2%;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+.cuadro2{
+    
+    background-color: black;
+    padding: 1%;
+    margin: 0% 2% 0% 2%;
+    margin-top: 0%;
+    
+
+}
+
+
+.cuadro3{
+    padding: 2%;
+    background-color: rgb(204, 201, 201);
+    margin-left: 20px;
+    margin-right: 67%;
+    margin-bottom: 1%;
+    
+    
+}
+.cuadro4{
+    margin: 2% 0% 2% 0%;
+    background-color: rgb(32, 136, 177);
+    padding: 2%;
+    font-family: 'Times New Roman';
+    
+    border-radius: 0% 0px 15px 15px;
+    
+    
+
+}
+
+.principal{
+    background-color: white;
+    margin: 1%;
+    
+    border-radius: 3%;
+    
+}
+.segundoparrafo{
+    padding: 2%;
+    margin-left: 20px;
+    margin-right: 67%;
+    margin-bottom: 1%;
+    
+}
+.a:focus {
+    background: yellow;
+  }

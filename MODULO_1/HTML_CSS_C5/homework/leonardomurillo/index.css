@@ -1,0 +1,52 @@
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+.Contenedor{
+width: 750px;
+height: 900px;
+}
+.Paris{
+    background-image: url(./../imagenes/paris.jpeg);
+    background-size: cover;
+    width: 750px;
+    height: 500px;
+    border-radius: 15px 15px 0 0 ; 
+
+    & img{
+        width: 200px;
+        height: 200px;
+        border: 5px solid white;
+        border-radius: 50%;
+        margin-top: 350px;
+        margin-left: 250px;
+    }
+}
+.Texto{
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+
+    & h1{
+        font-size: 40px;
+        font-family: sans-serif ;
+        color: blueviolet;
+        padding-left: 30px ;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    & p {
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    & button {
+        font-family: sans-serif;
+        font-size: 20px;
+        background-color: darkviolet;
+        color: white;
+        width: 150px;
+        
+    }
+}

@@ -1,0 +1,56 @@
+/* Navegador: P-> Aque*/
+p {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+
+.parrafoUnico {
+    color: red;
+}
+
+.contenedor {
+    border: solid 2px red;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 40px;
+    border: 50px solid;
+    background-color: blue;
+}
+
+.contenedorDos {
+    border: solid 2px red;
+    border-radius: 15px;
+    padding: 80px;
+    margin: 60px;
+    border: 50px solid;
+    background-color: green;
+}
+
+.subcontenedor {
+    border: solid 2px blue;
+}
+
+.contenedor-general{
+    background-color: gray;
+    margin: 60px;
+    padding: 60px;
+}
+
+.recuadro-uno{
+    background-color: blueviolet;
+    margin: 60px;
+    padding: 60px;
+}
+
+.recuadro-dos {
+    background-color: thistle;
+    margin: 60px;
+    padding: 60px;
+}
+/* .tituloDeBox {
+    border: solid 2px green;
+}
+.subcontenedorParrafo {
+    border: solid 2px yellow;
+} */

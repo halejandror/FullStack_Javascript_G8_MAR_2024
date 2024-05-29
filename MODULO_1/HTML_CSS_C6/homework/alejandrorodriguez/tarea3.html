@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Model Example</title>
+<style>
+ *{
+    margin: 0;
+    padding: 0;
+    /*esto se usa para tener disponibilidad total de la pagina*/
+ } 
+.titulo{
+    padding: 100px;
+    font-size: 100px;
+    text-align: center;
+    margin-right: 300px;
+    margin-right: 300px;
+    }
+ div{
+    float: left;
+    /*este es para alinear horizontamente*/
+ }  
+.box {
+width: 300%;
+height: 200px;
+padding: 200px;
+border: 100px solid #fefcfc;
+margin-top: 5px;
+margin-bottom: 1px;
+}
+.cima1,.cima2,.cima3,.cima4,.cima5,.cima6{
+width: 500px;
+height: 200px;
+padding: 10px;
+border: 0px solid #333;
+font-size: 500%;
+margin-top: 300px;
+margin-bottom: 200px;
+max-width: 100%;
+height: auto;
+display: block;
+margin: 80px;
+}
+.box2{
+width: 300%;
+height: 200px;
+padding: 200px;
+border: 100px solid #fffdfd;
+margin-top: 5px;
+margin-bottom: 1px; 
+}
+.cima7,.cima8,.cima9,.cima10,.cima11,.cima12{
+overflow: hidden;
+width: 500px;
+height: 100px;
+padding: 0px;
+border: 2px solid #8a2222;
+font-size: 500%;
+height: auto;
+max-width: 100%;
+max-height: 100%;
+display: block;
+margin: 80px;
+}
+</style>
+<div class="titulo">
+    Imagenes locales y no locales
+</div>
+</head>
+<body>
+     <div class="box">box
+     <div class="cima1"> 
+        <img src="https://sanlorenzo.com.co/wp-content/uploads/2024/02/Ceramica-San-Lorenzo-NOGAL-CAOBA-31X60-300x300.jpg" alt="img 1">
+     </div>
+        
+     <div class="cima2"> 
+        <img src="https://sanlorenzo.com.co/wp-content/uploads/2024/01/Ceramica-San-Lorenzo-PARED-COTA-31X60-Acercamiento-1-300x300.jpg" alt="img 1">
+     </div>
+    
+     <div class="cima3"> 
+        <img src="https://sanlorenzo.com.co/wp-content/uploads/2023/12/Ceramica-San-Lorenzo-ZAFIRO-PARAMO-31X60-300x300.jpg" alt="img 1">
+     </div>
+    
+     <div class="cima4"> 
+        <img src="https://sanlorenzo.com.co/wp-content/uploads/2023/03/Ceramica-San-Lorenzo-LISTON-VIRREY-31X60-Producto-300x300.jpg" alt="img 1">
+     </div>
+        
+     <div class="cima5"> 
+        <img src="https://sanlorenzo.com.co/wp-content/uploads/2023/02/Ceramica-San-Lorenzo-FACHADA-GRATAMIRA-31X60-MARMOLANATO-CENTENARIO-51X51-COMEDOR-Producto-300x300.jpg" alt="img 1">
+     </div>
+    
+     <div class="cima6"> 
+        <img src="https://sanlorenzo.com.co/wp-content/uploads/2023/09/Ceramica-San-Lorenzo-LAJA-QUINDIO-31X60-Producto-300x300.jpg" alt="6">
+     </div>
+    
+     </div>
+<div class="box2">
+    <div class="cima7">
+      <img src="./resourses/103.JPG" alt=7> 
+    </div>
+    <div class=" cima8">
+        <img src="./resourses/106.JPG" alt="8">
+    </div>
+        <div class="cima9">
+            <img src="./resourses/91.JPG" alt=9>
+        </div>
+       <div class="cima10">
+        <img src="./resourses/92.JPG" alt=10>
+       </div>
+        <div class=" cima11">
+            <img src="./resourses/94.JPG" alt="11">
+        </div>
+        <div class="cima12">
+            <img src="./resourses/95.JPG" alt="12">
+        </div>
+    
+</div>
+</body>
+</html>

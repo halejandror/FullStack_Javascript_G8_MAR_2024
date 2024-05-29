@@ -1,0 +1,40 @@
+/* Este es un selector */
+/* Selector de tipo universal */
+* {
+    margin: 0;
+    padding: 0;
+    color: green;
+    /* color -> Declaración de propiedad */
+    /* red -> Contenido de la declaración de la propiedad */
+}
+
+/* Este es un selector */
+/* Selector de tipo elemento */
+body {
+    background-color: aqua;
+}
+
+/* Este es un selector */
+/* Selector de tipo clase */
+.container {
+    background-color: blueviolet;
+    border: solid 5px black;
+    /* border -> Declaración de propiedad */
+    /* solid 5px black -> Contenido de la declaración de la propiedad */
+    padding: 20px 40px 30px 20px;
+}
+
+/* Este es un selector */
+/* Selector de tipo id */
+#container {
+    background-color: blueviolet;
+    border: solid 5px black;
+    padding: 20px 40px 30px 20px;
+}
+
+h1 {
+    color: #425229;
+    background-color: chartreuse;
+    padding: 50px;
+    width: 50%;
+}

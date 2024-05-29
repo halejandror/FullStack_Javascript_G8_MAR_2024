@@ -1,0 +1,18 @@
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.secondTitle{
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.last{
+    
+    border-style: double;
+    border-color: green;
+    border-width: 15px;
+}

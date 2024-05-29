@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fromulario</title>
+    </head>
+    <body>
+            <!-- Formulario #1 -->
+        <form action="/conexion.php" method="post">
+            <fieldset>
+                <legend>Rellenar</legend>
+                <input type="radio" id="radio1" /><label for="radio1"
+                    >Inglés</label
+                >
+                <br />
+                <input type="radio" id="radio2" /><label for="radio2"
+                    >Alemán</label
+                >
+                <br />
+                <input type="radio" id="radio3" /><label for="radio3"
+                    >Francés</label
+                >
+                <br />
+                <br>
+                <select name="conector" title="conection">
+                    <option value="USB">USB</option>
+                    <option value="Paralelo">Paralelo</option>
+                    <option value="PS2"">PS2</option>
+                </select>
+                <br>
+                <br>
+                <label for="name">Nombre</label>
+                <br><input type="text" id="name">
+                <br>
+                <label for="last-name">Apellidos </label>
+                <br><input type="text" id="last-name">
+                <br>
+                <br>
+                <button type="button">Enviar</button>
+            </fieldset>
+        </form>
+        <!-- Formulario #2 -->
+        <form action="" method="post">
+            <fieldset>
+                <legend>Indique sus preferencias por favor</legend>
+                <select name="género" title="." multiple id="genero">
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+                <br>
+                <input type="checkbox" placeholder=".">Hombre <br>
+                <input type="checkbox" placeholder=".">Mujer <br>
+                <br>
+                <label for="date">Elija la fecha porfavor</label>
+                <input type="date" id="date">
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>

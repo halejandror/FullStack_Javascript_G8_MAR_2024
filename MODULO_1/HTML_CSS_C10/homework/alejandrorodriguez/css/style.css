@@ -1,0 +1,56 @@
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+
+}
+header{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    /* padding: 2% 5% 2% 5%; */
+    background-color: black;
+    color: #f9f9f9;
+}
+h1{
+    width: 80%;
+    text-align: justify;
+    background-color: black;
+    color: #f9f9f9;
+    text-align: center;
+}
+nav{
+    width: 80%;
+    height: auto;
+    padding: 0% 0% 2% 50%;
+}
+a{
+    background-color: black;
+    color: #f9f9f9;
+}
+aside{
+    width: 33%;
+    height: 60%;
+    display: flex;
+    justify-content: left;
+}
+
+#articulo{
+    width: 90%;
+}
+figure {
+    background-color: white;
+    color:black;
+
+}
+h2{
+    background-color: rgb(149, 108, 80);
+    
+}
+a{
+    link: color red;
+    visited: black;
+    hover:blue;
+    active: yellow;
+}

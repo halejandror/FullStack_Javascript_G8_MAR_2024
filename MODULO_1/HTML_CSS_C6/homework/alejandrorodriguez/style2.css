@@ -1,0 +1,41 @@
+.container{
+    width: 20cm;
+    height: 35cm;
+    background-color: rgb(247, 248, 246);
+    padding: 500px;
+
+}
+body{
+    width: 20cm;
+    height: 80cm;
+    background-color: rgb(243, 243, 248);
+    margin-left: 1000px;
+    margin-right: 200px;
+    padding-right: 500px;
+    margin-top: 300px;
+    }
+#centrada{
+    width: 20cm;
+    height: 30cm;
+    background-position: 10px;
+}
+h1{
+    font-size: 100px;
+}
+.derecha{
+    width: 7cm;
+    height: 3cm;
+    background-color: rgb(248, 252, 250);
+    float:left;
+    margin-right: 100px;
+    font-size: 40PX;
+}
+.izquierda{
+    width: 7cm;
+    height: 3cm;
+    background-color: rgb(247, 245, 245);
+    float:left;
+    margin-left: 100px;
+    font-size: 40PX;
+   
+}

@@ -1,0 +1,97 @@
+body{
+    background-color: lightgray;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+.box-container{
+    width:750px;
+    margin: auto;
+    margin-top: 100px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0 , 77, 0.23);
+
+}
+
+.recuadro-Uno {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-image: url(./electronica.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+
+    & img{
+        width: 312px;
+        height: 312px;
+        border:5px solid white;
+        border-radius: 50%;
+        position: relative;
+        bottom: -200px;
+    }
+    & img:hover{
+        transform: scale(1.5);
+        filter: drop-shadow(0 0 0.75rem #D7FF00);
+    }
+}
+
+.recuadro-Dos{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    border-radius: 0 0 20px 20px;
+
+
+/* Se usa para anidar */
+
+    & h1{
+        font-size: 30px;
+        font-weight: 700;
+        color:#23003E;
+        margin:0;
+        padding-top: 200px;
+    
+    }
+
+    & h1:hover{
+        text-transform: uppercase;
+        
+    }
+
+    & p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #161212;
+        text-align: justify;
+        padding: 20px 40px;
+
+        
+    }
+
+    & button{
+        background-color:darkcyan;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+        width: 200px;
+        border: none;
+      
+    }
+    & button:hover{
+        background-color: blue;
+    }
+}
+
+
+
+
+

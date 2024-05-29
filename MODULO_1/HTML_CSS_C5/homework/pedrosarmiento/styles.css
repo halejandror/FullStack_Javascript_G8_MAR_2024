@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    flex-wrap: wrap; 
+    justify-content: center;
+    
+}
+
+
+
+p { /* propiedades de Parrafo*/
+    min-width:300px;
+    margin: auto;
+    white-space: wrap;
+    width: 1px;
+    height: 100px;
+}
+
+
+body { /* Centrar Contenido Cuerpo*/ 
+    display: flex;
+    background-color: lightgray;
+    align-content: flex-start
+}
+
+.tarjeta {/* Tamaño Tarjeta */
+    width: 500px;
+    height: 729px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 10px;
+    
+}
+
+.tarjeta .contenido {
+    position: relative;
+    z-index: 100;
+    width: 500px;
+    height: 729px;
+    border-radius: 20px;
+    overflow: hidden;  
+    text-align: center; 
+    padding: -80px;
+    background: #fff;
+}
+
+.tarjeta .contenido .img {
+    margin: 100px;
+    /* margin-botton Margen de arriba COntenido */
+    margin-bottom: 30px;
+}
+
+.tarjeta .contenido .img img {
+    position: relative;
+    width: 312px;
+    height: 312px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Franja MOrada Superior */
+.tarjeta .contenido span {
+    position: absolute;
+    width: 729px;
+    height: 350px;
+    background-image: url("https://gifdb.com/images/high/glitching-hacker-hacking-v56g4l1vaykmsno6.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    top: -50px;
+    left: 0px;
+}
+
+.tarjeta .contenido h4 {  /* Nombre Empleado */
+    font-size: 18px;
+    color: #1a1919;
+    margin-bottom: 0px;
+}
+
+.tarjeta .contenido h6 { /* Cargo */
+    font-size: 20px;
+    color: #5e2066;
+    margin-bottom: 10px;
+
+}
+
+
+
+.button{
+    height: 45px;   /* botoon  Altura */
+    width: 40%;     /* botoon  margen */
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0px 20px 0px 20;
+    z-index: 100;
+         background-color:#6A14AD;
+         border-radius: 5px 5px 5px  5px ;
+         bottom: -30px;
+         cursor: pointer;
+         margin: 0;
+  position: absolute;
+  /* Alinear Altura */
+  top: 87%; 
+ /* Alinear horizontal */
+  left:30%;
+  hover { background-color: #5C469C; }
+  
+     }
+     .button:active{ background-color: #D4ADFC; }
+     button:hover { background-color: #000000; }

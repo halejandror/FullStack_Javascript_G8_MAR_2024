@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://ichef.bbc.co.uk/wwhp/999/cpsprodpb/125E8/production/_131104257_resize.jpg);
+    background-size: cover;
+    border: 10px solid white;
+    padding: 500px;
+}
+
+h1 {
+    font-size: 60px; color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative; top: 300px; left: 80px;
+}
+
+h3 {
+    font-size: 30px; color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative; top: 300px; left: 80px;
+}

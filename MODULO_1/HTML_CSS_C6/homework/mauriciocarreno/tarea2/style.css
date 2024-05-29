@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.boxcontainer {
+    background-color: white;
+    width: 530px;
+    height: 730px;
+    margin-left: 600px;
+    margin-top: 60px;
+    border-radius: 3px;
+}
+
+.div1 {
+    margin:90px 0px 0px 30px;
+    
+    & img {
+        padding: 10px;
+        width: 450px;
+        height: 550px;
+        margin-top: 30px;
+    }
+}
+
+.div2 {
+    background-color: white;
+    margin: 10px;
+    position: relative;
+    top: -10px;
+    left: 25px;
+    right: 25px;
+    width: 460px;
+
+    & h1 { 
+        font-size: 25px;
+
+    }
+
+    & p {
+        font-size: 20px;
+    }
+
+}

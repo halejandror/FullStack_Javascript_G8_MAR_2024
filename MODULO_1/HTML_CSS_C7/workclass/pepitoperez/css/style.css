@@ -1,0 +1,68 @@
+/* Este es el selector universal
+Dentro de este es donde se van a aplicar
+todos los estilos a la página.
+
+Es decir, todo lo que yo ponga ahí
+en estilos, se me va a aplicar en toda 
+la página sin importar. */
+
+body {
+    background-color:bisque;
+}
+
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Este es el selector del  contenedor del titulo */
+.title {
+    text-align: center;
+    color: brown;
+    border: solid 2px gold;
+}
+
+/* Esta es la clase, del contenedor de las cajas. */
+.flex-container {
+    border: 3px solid orangered;
+    margin: 20px;
+    padding: 10px;
+    /* Esta es la declaración de inicio de flexbox, y debe hacerse en el contenedor padre. */
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    align-items: center;
+    
+    /* Justify content sirve para posicionar
+    los elementos dentro de un contenedor padre
+    por ejemplo, center, start, o end */
+    justify-content:center;
+    /* Flex direction sirve para ordenar los elementos, ya se en filas o en columnas */
+    /* Row para filas */
+    /* flex-direction: row; */
+    /* Column para columnas */
+    /* flex-direction:column; */
+    
+    /* Sirve para ordenar los elementos
+    en cuadros o apilarlos en orden tipo tabla*/
+    /* flex-wrap: wrap; */
+
+    /* Por defecto, la propiedad viene en nowrap */
+    /* flex-wrap: nowrap; */
+    
+
+    /* flex-wrap: wrap; */
+
+
+}
+
+/* Este es el estilo general de las cajas */
+.caja {
+    background-color:brown;
+    border: solid 1px rebeccapurple;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: aliceblue;
+    height: 10%;
+    width: 10%;
+}

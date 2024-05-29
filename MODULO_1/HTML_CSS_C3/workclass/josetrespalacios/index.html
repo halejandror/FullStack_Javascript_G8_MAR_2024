@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="nombre" id="nombre">
+    <br>
+    <br>
+    <input type="text">
+    <br>
+    <br>
+
+    <!-- Botones tipos envío -->
+    <form action="/submit_form.php" method="post">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="email" name="correo" placeholder="Correo electrónico">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Botones tipos reset -->
+    <form>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="email" name="correo" placeholder="Correo electrónico">
+        <button type="reset">Borrar</button>
+    </form>
+
+    <!-- Botones tipos reset -->
+    <form>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="email" name="correo" placeholder="Correo electrónico">
+        <button type="reset">Borrar</button>
+    </form>
+
+    <!-- Botones de navegación -->
+    <a href="/pagina1.html"><button>Ir a Página 1</button></a>
+
+    <button type="button">Haz clic aquí</button>
+
+    <!-- Selects -->
+    <select>
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+    </select>
+
+    <!-- Select múltiple -->
+    <select multiple>
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+    </select>
+
+    <!-- Estructura de un formulario -->
+
+    <form action="/procesar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+      
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electrónico">
+      
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+      
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedortarjeta {
+    border-style: inset;
+    border-radius: 20px;
+    width: 729px;
+    background-color: white;
+    background-image: url(./imagenes/imagenfondo.jpg);
+    background-repeat:repeat-x;
+    text-align: center;
+}
+
+.imagen-fondo{
+    height: 350px;
+
+}
+
+.imagen-uno {
+    width: 312px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 150px;
+}
+
+.nombre {
+    font-size: 30px;
+    font-weight: 700 color #23003E;
+}
+
+.descripcion {
+    font-size: 12px;
+    font-weight: 400 color #7E7E7E;
+}
+
+.texto-tarjeta {
+    position: relative;
+    bottom: 150px;
+}
+
+.boton {
+    position: relative;
+    bottom: 150px;
+}
+
+button {
+    background-color: #6A14AD;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button:hover {
+    background-color:#460d73;
+
+}

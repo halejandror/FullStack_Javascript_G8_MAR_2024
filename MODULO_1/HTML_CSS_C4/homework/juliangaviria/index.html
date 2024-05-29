@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                box-sizing: border-box;
+            }
+            .tarea {
+                width: 100%;
+                & h1 {
+                    height: auto;
+                    border: solid 1px blue;
+                    padding: 10px 10px;
+                }
+                & h2 {
+                    border: red solid 1px;
+                    border-radius: 20px;
+                    padding: 0 5px;
+                }
+                & div {
+                    border: double rgb(47, 255, 92) 15px;
+                }
+            }
+
+            .tarea-dos {
+                font-family: "Lucida Sans", "Lucida Sans Regular",
+                    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+                    sans-serif;
+                width: 100%;
+                height: 60vh;
+                color: azure;
+                & .image-section {
+                    margin-top: 20px;
+                    padding: 20px;
+                    height: 100%;
+                    background-image: url(https://ichef.bbc.co.uk/wwhp/999/cpsprodpb/125E8/production/_131104257_resize.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    opacity: 0.9;
+                    & .circle1 {
+                        position: relative;
+                        left: 50px;
+                        top: 20px;
+                        width: 10px;
+                        height: 10px;
+                        border: rgb(47, 255, 92) solid 40px;
+                        opacity: 0.6;
+                        border-radius: 50%;
+                        margin-bottom: 10px;
+                    }
+                    & h2 {
+                        margin-top: 30px;
+                        font-size: 40px;
+                        font-weight: 100;
+                    }
+                    & p {
+                        font-weight: 500;
+                    }
+                    & span {
+                        border-left: solid 2px red;
+                        padding: 3px;
+                    }
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section class="tarea uno">
+            <h1><i>HTML & CSS: curso práctico avanzado</i></h1>
+            <h2>Datos del libro</h2>
+            <div>
+                <ul>
+                    <li>Titulo: HTML & CSS: curso práctico</li>
+                    <li>Autor: Sergio Luján Mora</li>
+                    <li>Edtorial: Publicaciones Altaria</li>
+                    <li>Año de publicación: 2015</li>
+                    <li>ISBN: 978-84-9944049-4-8</li>
+                </ul>
+            </div>
+        </section>
+        <section class="tarea-dos">
+            <div class="image-section">
+                <div class="circle1"></div>
+                <br />
+                <br />
+                <h2>Libyan official rejects blame for flood disaster</h2>
+                <p>
+                    An offical tells the BBCS people in Derna were told to flee
+                    but some did not take the threat seriously
+                </p>
+                <span>AFRICA</span>
+            </div>
+        </section>
+    </body>
+</html>

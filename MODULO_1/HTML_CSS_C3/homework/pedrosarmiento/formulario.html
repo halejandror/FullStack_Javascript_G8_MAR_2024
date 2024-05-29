@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+<!--Titulo del Trabajo  -->
+
+    <h1>FORMULARIO DE REGISTRO</h1>
+
+    <!--Inicio del Formulario  -->
+    <form>
+        <fieldset><!--Lo uso para el Recuadro Exterior en el Form  -->
+            <legend>Rellenar los Siguientes Campos:</legend><!--Titulo del Recuadro  -->
+          
+            <div><!--Seccion de idiomas usando Input type radio -->
+              <input type="radio" id="Aleman" name="Lenguaje" value="Aleman" checked />
+              <label for="Ingles">Ingles</label> 
+            </div>
+            <div>
+                <input type="radio" id="Aleman" name="Lenguaje" value="Aleman"  />
+                <label for="Aleman">Aleman</label>
+              </div>
+              <div>
+                <input type="radio" id="Frances" name="Lenguaje" value="Frances"  />
+                <label for="Frances">Frances</label>
+              </div>
+        <br/>
+            <select name="conector"><!--Seccion de Dispositivo usando Input Select -->
+            <option value="usb">USB</option>
+            <option value="paralelo" selected>Paralelo</option>
+            <option value="ps2" selected>PS2</option>
+            </select>
+        <br/>
+        <br/>
+        <br/>
+        <br/><!--los Campos de Nombre y Apellidos con su Label e ID-->
+            <label for="name">Nombres:</label>
+            <input type="value" id="name" name="name" />
+        <br/>
+        <br/>
+            <label for="last_name">Apellidos:</label>
+            <input type="text" id="last_name" name="last_name" />
+        </fieldset>
+        <br/>
+        <br/>
+            <fieldset><!--Segundo Recuadro-->
+                <legend>Indique sus Preferencias por Favor:</legend><!--titulo Recuadro-->
+              
+                <textarea name="hombre" rows="10" cols="40">Hombre
+Mujer
+                </textarea>
+
+                <div>
+                  <input type="checkbox" id="hombre" name="Hombre"  />
+                  <label for="hombre">Hombre</label>
+                </div>
+              
+                <div>
+                    <input type="checkbox" id="mujer" name="mujer"  />
+                    <label for="mujer">Mujer</label>
+                </div>
+            <br/>
+                <label for="mail">Elija una Fecha:</label>
+                <input type="date"  />
+            </fieldset>
+            <br/>
+            <br/>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Enviar">
+    </form>
+<!--Fin Formulario -->
+
+</body>
+</html>

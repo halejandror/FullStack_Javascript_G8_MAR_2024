@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Clase3</title>
+</head>
+<body>
+    
+    <form action="">
+        <fieldset>
+            <legend>Rellenar</legend>
+        <input type="radio" name="idioma" value="idiomaingles" id="ingles">
+        <label for="ingles">Inglés</label>
+        <br>
+        <input type="radio" name="idioma" value="idiomaaleman" id="aleman">
+        <label for="aleman">Alemán</label>
+        <br>
+        <input type="radio" name="idioma" value="idomafrances" id="frances">
+        <label for="frances">Francés</label>
+        <br>
+        <br>
+        <select name="conector">
+            <option value="usb">USB</option>
+            <option value="paralelo">Paralelo</option>
+            <option value="ps2">PS2</option>
+        </select>
+        <br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+    </fieldset>
+        <br>
+        <fieldset>
+            <legend>Indique Sus Preferencias Por favor</legend>
+        <select multiple name="sexo">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select>
+        <br>
+        <input type="checkbox" name="sexo" value="sexomujer" id="mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <input type="checkbox" name="sexo" value="sexohombre" id="hombre">
+        <label for="hombre">Hombre</label>
+        <br>
+        <br>
+        <br>
+        <label for="elijaunafecha">Elija Una Fecha </lsabel>
+        <input type="date" name="date" value="date" id="elijaunafecha">
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </fieldset>
+    </form>
+</body>
+</html>

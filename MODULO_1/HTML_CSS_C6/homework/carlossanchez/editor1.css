@@ -1,0 +1,107 @@
+.titulo{ 
+    font-style:italic;
+
+}
+*{
+    background-color: rgb(161, 158, 158);
+}
+
+.imagen1{
+    margin: 5%;
+    background-color: white;
+    border-left: 3%;
+    border: solid black;
+    margin-left: 2%;   
+    margin-right: 79%;
+
+}
+
+.imagen2{
+    margin: 5%;
+    background-color: white;
+    border-left: 50%;
+    border: solid black;
+    margin-left: 25%;
+    margin-right: 57%;
+    
+    margin-top: -26%;
+
+
+}
+.imagen3{
+    margin: 10%;
+    background-color: white;
+    border-left: 60%;
+    border: solid black;
+    margin-left: 45%;
+    margin-right: 37%;
+
+    margin-top: -27%;
+
+}
+.imagen4{
+    margin: 10%;
+    background-color: white;
+    border-left: 60%;
+    border: solid black;
+    margin-left: 64%;
+    margin-right:18%;
+
+    margin-top: -32%;
+
+}
+.imagen5{
+    margin: 10%;
+    background-color: white;
+    border-left: 60%;
+    border: solid black;
+    margin-left: 83%;
+    margin-right:0%;
+
+    margin-top: -32%;
+
+}
+
+.imagen7{
+    margin: 10%;
+    background-color: white;
+    border-left: 60%;
+    border: solid black;
+    margin-left: 18%;
+    margin-right:62%;
+
+    margin-top: -18%;
+
+
+}
+.imagen8{
+    margin: 10%;
+    background-color: white;
+    border-left: 60%;
+    border: solid black;
+    margin-left: 39%;
+    margin-right: 43%;
+
+    margin-top: -35%;
+}
+.imagen9{
+    margin: 10%;
+    background-color: white;
+    border-left: 60%;
+    border: solid black;
+    margin-left: 58%;
+    margin-right:24%;
+
+    margin-top: -32%;
+}
+.imagen10{
+    margin: 10%;
+    background-color: white;
+    border-left: 60%;
+    border: solid black;
+    margin-left: 77%;
+    margin-right:3%;
+
+    margin-top: -32%;
+
+}

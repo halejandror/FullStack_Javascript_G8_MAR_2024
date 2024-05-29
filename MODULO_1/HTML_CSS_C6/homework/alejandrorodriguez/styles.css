@@ -1,0 +1,28 @@
+* {
+    
+   
+}
+body{
+    border: 2px;
+    font-size: 2em;
+    padding-top: 2%;
+    margin-top: 2px;
+} 
+.container{
+    border-color: rgb(245, 240, 240);
+    padding: 2px;   
+    margin: 1px;
+    content: normal;
+    width: 50%;
+}
+h1{
+    background-color: rgb(224, 204, 204);
+   text-align: center;
+   width:100% 100%;
+   margin-top: 0ch;
+   margin: 2px color red;
+   content: width=50%;
+}
+
+    
+

@@ -1,0 +1,19 @@
+body {
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+header {
+    border: solid 2px red;
+    margin: 10px 20px;
+}
+
+nav {
+    border: solid 2px green;
+    margin: 10px 20px;
+    padding: 20px;
+    /* Jugar con el ancho */
+    width: 50%;
+    /* Jugar con el alto */
+    height: 200px;
+}

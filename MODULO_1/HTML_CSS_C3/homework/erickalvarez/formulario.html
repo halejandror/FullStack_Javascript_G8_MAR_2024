@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <fieldset>
+            <legend>Rellenar</legend>
+            <form>
+                <input type="radio" id="ingles" name="idioma">
+                <label for "ingles">Ingles</label> <br>
+               
+                <input type="radio" id="aleman" name="idioma">
+                <label for "aleman">Aleman</label><br>
+                
+                <input type="radio" id="frances" name="idioma">
+                <label for "frances">Frances</label><br><br>
+                
+                <label for="selection"></label>
+                <select name="conector" id="conector">
+                    <option value="USB">USB</option>
+                    <option value="paralelo">Paralelo</option>
+                    <option value="ps2">PS2</option>
+                </select><br><br>
+                
+                <label for "name">Nombre</label>
+                <input type="text" id="name" name="name"><br>
+                
+                <label for "lastname">Apellidos</label>
+                <input type="text" id="lastname" name="lastname">
+            </form>
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend>Indique sus preferencias porfavor</legend>
+
+            <select name="sexo" multiple id="">
+                <option value="mujer">Mujer</option>
+                <option value="hombre">Hombre</option>
+            </select><br>
+
+            <input type="checkbox" id="mujer" name="sexo">
+            <label for "mujer">Mujer</label>
+            <br>
+            <input type="checkbox" id="hombre" name="sexo">
+            <label for "hombre">Hombre</label>
+            <br>
+            <br>
+            <label for="date">Elije una fecha:</label>
+            <input type="datetime-local" id="date" name="birthdaytime">
+        </fieldset>
+    </body>
+</html>

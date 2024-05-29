@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .image-item {
+            flex: 0 0 calc(33.33% - 40px); /* Para tres imágenes por fila */
+            max-width: calc(33.33% - 40px);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s ease;
+        }
+        .image-item:hover {
+            transform: translateY(-5px);
+        }
+        .image {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .card-description {
+            font-size: 14px;
+            color: #666;
+        }
+        .highlights {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #ffecb3;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .highlight {
+            flex: 0 0 calc(33.33% - 40px); /* Para tres momentos destacados por fila */
+            max-width: calc(33.33% - 40px);
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffe082;
+            text-align: center;
+        }
+        .highlight-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .highlight-description {
+            font-size: 14px;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Galería de Imágenes</h1>
+        <p style="text-align: center;">Una colección de imágenes de muestra para inspirarte.</p>
+        <div class="gallery">
+            <div class="image-item">
+                <img class="image" src="https://via.placeholder.com/400x300" alt="Imagen 1">
+                <div class="card-content">
+                    <h2 class="card-title">Título de la Imagen 1</h2>
+                    <p class="card-description">Descripción de la Imagen 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="image-item">
+                <img class="image" src="https://via.placeholder.com/400x300" alt="Imagen 2">
+                <div class="card-content">
+                    <h2 class="card-title">Título de la Imagen 2</h2>
+                    <p class="card-description">Descripción de la Imagen 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="image-item">
+                <img class="image" src="https://via.placeholder.com/400x300" alt="Imagen 3">
+                <div class="card-content">
+                    <h2 class="card-title">Título de la Imagen 3</h2>
+                    <p class="card-description">Descripción de la Imagen 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="highlights">
+            <div class="highlight">
+                <h3 class="highlight-title">Momento Destacado 1</h3>
+                <p class="highlight-description">Descripción del Momento Destacado 1. Lorem ipsum
+                </p>
+
+            </div>
+            <div class="highlight">
+                <h3 class="highlight-title">Momento Destacado 1</h3>
+                <p class="highlight-description">Descripción del Momento Destacado 1. Lorem ipsum
+                </p>
+
+            </div>
+            <div class="highlight">
+                <h3 class="highlight-title">Momento Destacado 1</h3>
+                <p class="highlight-description">Descripción del Momento Destacado 1. Lorem ipsum
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © 2024 Galería de Imágenes. Todos los derechos reservados.
+    </footer>
+</body>
+</html>

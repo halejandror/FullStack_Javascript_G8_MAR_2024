@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedor-imagenes {
+    border-style: solid;
+    border-color:white;
+    width: 185px;
+
+}
+.imagen-uno {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+
+}
+.imagen-dos {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 201px;
+    left: 210px;
+}
+.imagen-tres {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 402px;
+    left: 420px;
+}
+.imagen-cuatro {
+    border-style: solid;
+    border-color:white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 603px;
+    left: 630px;
+}
+.imagen-cinco {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 804px;
+    left: 840px;
+}
+.imagen-seis {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 1005px;
+    left: 1048px;
+}
+
+.imagen-uno-filados {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 960px;
+
+}
+.imagen-dos-filados {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 1160px;
+    left: 210px;
+
+
+}
+.imagen-tres-filados {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 1361px;
+    left: 420px;
+
+}
+.imagen-cuatro-filados {
+    border-style: solid;
+    border-color: white;
+    width: 185px;   
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 1562px;
+    left: 630px;
+}
+.imagen-cinco-filados {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 1763px;
+    left: 840px;
+}
+.imagen-seis-filados {
+    border-style: solid;
+    border-color: white;
+    width: 185px;
+    height: 185px;
+    margin: 10px;
+    position: relative;
+    bottom: 1964px;
+    left: 1048px;
+}

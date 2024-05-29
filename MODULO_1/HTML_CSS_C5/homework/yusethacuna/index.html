@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Presentación</title>
+    <style>
+        body {
+            background-image: ;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #container {
+            background-color: rgba(0, 0, 255, 0.523);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            position: relative; /* Añadido para que los elementos posicionados dentro de él se puedan posicionar de forma relativa */
+        }
+        #overlay-image {
+            background-image: url('img/js.jpeg');
+            height: 180px;
+            width: 400px;
+            position: center; /* Hace que este div sea posicionado absolutamente dentro del div #container */
+            top: auto; /* Distancia desde la parte superior */
+            margin: auto; /* Centra horizontalmente */
+            z-index: 1; /* Asegura que este div esté encima de otros elementos */
+        }
+        #profile-picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+            position: relative; /* Añadido para poder superponer el div de la imagen encima de esta foto */
+            z-index: 0; /* Asegura que este div esté detrás de otros elementos */
+        }
+        h1, p {
+            color:black;
+        }
+        button {
+            background-color: #af4c6f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #a04551;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="overlay-image">
+            <img src="img/js.jpeg" height="100px" alt="Otra Imagen">
+        </div> 
+        <div id="profile-picture">
+            <img src="img/latrell.jpg" height="200px " alt="Tu Foto">
+        </div>
+        <div id="profile-info">
+            <h1>Bienvenido a mi página de presentación</h1>
+            <p>¡Hola! Soy Latrell Acuña, estoy encantado de conocerte.</p>
+            <button type="submit">Enviar</button>
+   
